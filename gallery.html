@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./gallery.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width = device-width">
+  </head>
+    <body>
+      <header>
+        <nav>
+          <a href="#" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px;"  >
+            ENIOLA. 
+          </a>
+
+          <button id="mobile-icon">
+            &#9776;
+          </button>
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="booking.html">DIRECT BOOKING</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+        <div class="scrollmenu" style="flex-direction: column; align-items: center;">
+      <div class="card"><img src="./BOLU.png"></div>
+      <div class="card"><img src="./bolu9.png"></div>
+      <div class="card"><img src="./j.png"></div>
+      <div class="card"><img src="./bolu10.png"></div>
+      <div class="card"><img src="./l.png"></div>
+      <div class="card"><img src="./n.png"></div>
+      <div class="card"><img src="./o.png"></div>
+      <div class="card"><img src="./m.png"></div>
+     
+        </div>
+      </div>
+      <script>
+        document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+          event.preventDefault();
+          document.querySelector('header nav ul').classList.toggle("active");
+        });
+      </script>
+  </body>
+</html>
