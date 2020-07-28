@@ -5,6 +5,7 @@
   --content-padding: 12em;
 }
 
+
 @media screen and (max-width: 1200px) {
   :root {
     --content-padding: 5em;
